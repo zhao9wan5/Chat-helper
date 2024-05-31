@@ -1,7 +1,11 @@
+软件：Android Studio
+编程语言：Kotlin， XML
+数据库：MySQLlite
+
 框架结构
 1、应用程序结构
 (1)登录注册模块
-登录注册使用了Android自带的SQLite数据库用来存储用户个人信息，以及账号密码。界面方面设计了登陆和注册两个界面，界面包含TextView、ImageView、EditText、Button控件来实现基本的交互功能，并且使用封装好的包含sql语句的方法实现数据的存入和查询。
+登录注册使用了Android自带的SQLlite数据库用来存储用户个人信息，以及账号密码。界面方面设计了登陆和注册两个界面，界面包含TextView、ImageView、EditText、Button控件来实现基本的交互功能，并且使用封装好的包含sql语句的方法实现数据的存入和查询。
 此外，为了实现自动登录的功能，采用了SharedPreferences持久化机制。
 
 (2)主页模块
